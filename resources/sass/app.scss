@@ -1,0 +1,233 @@
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-select/sass/bootstrap-select';
+@import '~pretty-checkbox/src/pretty-checkbox';
+@import 'mixins';
+@import 'responsive';
+
+body {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/idea-detail-page.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.admin-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/admin-panel.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.bg-login-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/login.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.home-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/home.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.how-it-works-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/how-it-works.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/profile.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.my-ideas-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/my-ideas.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.featured-ideas-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/new-featured-ideas.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.all-ideas-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/all-ideas.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.submit-idea-page {
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background: url('bg/new-submit-idea.png') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.col-card-design-blue {
+  -moz-box-shadow: 0 0 10px 2px rgba(33, 63, 201, 0.3);
+  -webkit-box-shadow: 0 0 10px 2px rgba(33, 63, 201, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(33, 63, 201, 0.3);
+  padding: 2px 2px 2px 0;
+
+  .card-design-blue {
+    background: rgb(108, 125, 252);
+    background: -moz-linear-gradient(165deg, rgba(108, 125, 252, 1) 0%, rgba(11, 45, 186, 1) 100%);
+    background: -webkit-linear-gradient(165deg, rgba(108, 125, 252, 1) 0%, rgba(11, 45, 186, 1) 100%);
+    background: linear-gradient(165deg, rgba(108, 125, 252, 1) 0%, rgba(11, 45, 186, 1) 100%);
+    border: 0;
+    border-radius: 10px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#6c7dfc', endColorstr='#0b2dba', GradientType=1);
+    min-height: 130px;
+
+    .column-01-wrapper {
+      .column-01 {
+        align-items: center;
+        background: url('./img/card-arrow-right.svg') no-repeat right center;
+        background-size: cover;
+        color: #0c26ba;
+        display: flex;
+        font-size: 32px;
+        font-weight: 700;
+        justify-content: center;
+        min-height: 130px;
+      }
+    }
+
+    .column-02-wrapper {
+      .column-02 {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: center;
+        min-height: 130px;
+        word-break: break-word;
+      }
+    }
+  }
+}
+
+.col-card-design-purple {
+  -moz-box-shadow: 0 0 10px 2px rgba(48, 23, 154, 0.3);
+  -webkit-box-shadow: 0 0 10px 2px rgba(48, 23, 154, 0.3);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 2px rgba(48, 23, 154, 0.3);
+  padding: 2px 2px 2px 0;
+
+  .card-design-purple {
+    background: rgb(156, 132, 255);
+    background: -moz-linear-gradient(165deg, rgba(156, 132, 255, 1) 0%, rgba(48, 23, 154, 1) 100%);
+    background: -webkit-linear-gradient(165deg, rgba(156, 132, 255, 1) 0%, rgba(48, 23, 154, 1) 100%);
+    background: linear-gradient(165deg, rgba(156, 132, 255, 1) 0%, rgba(48, 23, 154, 1) 100%);
+    border: 0;
+    border-radius: 10px;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9c84ff', endColorstr='#30179a', GradientType=1);
+    min-height: 130px;
+
+    .column-01-wrapper {
+      .column-01 {
+        align-items: center;
+        background: url('./img/card-arrow-right.svg') no-repeat right center;
+        background-size: cover;
+        color: #310d9a;
+        display: flex;
+        font-size: 32px;
+        font-weight: 700;
+        justify-content: center;
+        min-height: 130px;
+      }
+    }
+
+    .column-02-wrapper {
+      .column-02 {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 16px;
+        font-weight: 700;
+        justify-content: center;
+        min-height: 130px;
+        word-break: break-word;
+      }
+    }
+  }
+}
+
+.enable-ideas-scrollable {
+  height: auto;
+  max-height: 60vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+// width
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+// Track
+::-webkit-scrollbar-track {
+  background: #ebebeb;
+  border-radius: 3px;
+}
+
+// Handle
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(140deg, #4900ad, #a606fa);
+  border-radius: 3px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(140deg, #4900ad, #a606fa);
+}
+
+@import 'my-ideas';
+
+@import 'individual-idea-page';
+
+@import 'admin-dashboard';
+
+.like-btn {
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.like-btn:hover {
+  transform: scale(1.3);
+}
+
+#mceu_47 {
+  display: none;
+}
+
+.full-height {
+  height: 100vh;
+}

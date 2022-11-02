@@ -1,0 +1,61 @@
+
+
+
+@media only screen and (max-width: 1268px) {
+
+
+    .filter{
+        position: absolute;
+        top: 95%;
+        right: 16px;
+        background-color: #F4FCFF;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1130px) {
+
+    .featured_idea_badge {
+        padding: 20px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .featured_idea_badge {
+        padding: 22px 16px; !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .mobile-view-margin{
+        margin-bottom:20px !important;
+    }
+
+    .featured_idea_badge {
+        padding: 14px 24px; !important;
+    }
+
+
+}
+
+
+
+
+.custom-navbar-design {
+    position: sticky !important;
+    top: 0 !important;;
+    z-index: 1000 !important;;
+}
+
+
+
+
+
